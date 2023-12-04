@@ -3,7 +3,7 @@ const author = "Hemlal Dulal";
 const image = require("../public/screenshot.webp");
 
 const description =
-	"Software developer from Moldova, Republic of, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
+	"Software developer from Sindhupalchok, Nepal, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
 const url = "https://hemlal-dulal-portfolio.vercel.app/";
 export const AppMetadata = {
 	metadataBase: new URL("https://hemlal-dulal-portfolio.vercel.app/"),

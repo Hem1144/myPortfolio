@@ -4,7 +4,7 @@ import { useEffect, useState, useRef } from "react";
 import { HiDocumentArrowDown } from "react-icons/hi2";
 import Link from "next/link";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
-// import { WelcomeAnimation } from "./IntroAnimation";
+import { WelcomeAnimation } from "./IntroAnimation";
 import { useScrollTo } from "hooks";
 import { FacebookProvider, CustomChat } from "react-facebook";
 import { useMediaQuery } from "utils";

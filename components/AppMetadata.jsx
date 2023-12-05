@@ -1,6 +1,6 @@
 const author = "Hemlal Dulal";
 
-const image = require("../public/screenshot.webp");
+// const image = require("../public/screenshot.webp");
 
 const description =
 	"Software developer from Sindhupalchok, Nepal, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
@@ -33,13 +33,13 @@ export const AppMetadata = {
 		siteName: `${author} | Portfolio`,
 		images: [
 			{
-				url: { image },
+				url: "",
 				width: 800,
 				height: 600,
 				alt: "My personal portfolio website"
 			},
 			{
-				url: { image },
+				url: "",
 				width: 1800,
 				height: 1600,
 				alt: "My personal portfolio website"

@@ -1,7 +1,5 @@
 const author = "Hemlal Dulal";
 
-// const image = require("../public/screenshot.webp");
-
 const description =
 	"Software developer from Sindhupalchok, Nepal, who loves to develop beautiful websites, single page applications, customer relationship management or code from scratch using React and Next.js";
 const url = "https://hemlal-dulal-portfolio.vercel.app/";
@@ -33,13 +31,13 @@ export const AppMetadata = {
 		siteName: `${author} | Portfolio`,
 		images: [
 			{
-				url: "",
+				url: "https://res.cloudinary.com/dbfnqdw33/image/upload/w_1400,h_650,c_fill,q_100/ping3gv2knqi3tk3uh7m.jpg",
 				width: 800,
 				height: 600,
 				alt: "My personal portfolio website"
 			},
 			{
-				url: "",
+				url: "https://res.cloudinary.com/dbfnqdw33/image/upload/w_1400,h_650,c_fill,q_100/ping3gv2knqi3tk3uh7m.jpg",
 				width: 1800,
 				height: 1600,
 				alt: "My personal portfolio website"

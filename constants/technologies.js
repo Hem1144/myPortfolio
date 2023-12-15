@@ -19,11 +19,10 @@ import Express from "public/assets/svg/ex.svg";
 import StyledIcon from "public/assets/svg/styledcomponents.svg";
 
 export const TECHNOLOGIES = [
-
 	{
 		category: "Front-End Skill",
 		items: [
-			{ name: "HTML", icon: <AiFillHtml5   className=" text-red-600" size={32} /> },
+			{ name: "HTML", icon: <AiFillHtml5 className=" text-red-600" size={32} /> },
 			{ name: "CSS", icon: <DiCss3 size={32} /> },
 			{ name: "JS", icon: <IoLogoJavascript size={32} /> },
 			{ name: "React", icon: <FaReact size={32} /> },
@@ -40,8 +39,8 @@ export const TECHNOLOGIES = [
 	{
 		category: "	Backend-Skill",
 		items: [
-			{ name: "Node JS", icon: <Node size={56} /> },
-			{ name: "Express", icon: <Express width={36} /> },
+			{ name: "Node JS", icon: <Node size={32} /> },
+			{ name: "Express", icon: <Express width={52} /> }
 		]
 	},
 	{
@@ -60,8 +59,7 @@ export const TECHNOLOGIES = [
 			{ name: "XD", icon: <AdobeXDIcon width={32} /> }
 		]
 	},
-	
-	
+
 	{
 		category: "Other tools",
 		items: [

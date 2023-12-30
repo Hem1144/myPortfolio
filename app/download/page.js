@@ -10,6 +10,7 @@ import { Loader } from "components";
 //     margin: "0 auto",
 //     borderColor: "red",
 //   };
+
 const DownloadPage = () => {
 	const router = useRouter();
 

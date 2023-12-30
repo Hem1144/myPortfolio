@@ -148,8 +148,8 @@ export function WelcomeSection() {
 						</div>
 					</div>
 					<div className="  absolute bottom-0 right-0">
-						<FacebookProvider appId="722685486336368" chatSupport>
-							<CustomChat pageId="126124160589641" minimized={true} />
+						<FacebookProvider appId="7466678320009294" chatSupport>
+							<CustomChat pageId="193249680541140" minimized={true} />
 						</FacebookProvider>
 					</div>
 					<div className="hidden sm:block">

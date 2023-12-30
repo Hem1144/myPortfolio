@@ -39,8 +39,8 @@ export function ProjectsSection() {
 		{
 			title: "E-Commerce",
 			src: "../s.png",
-			toolbar: ["React", "Next JS", "Redex JS", "Tailwind"],
-			link: "https://www.salesberry.com.np/"
+			toolbar: ["React", "Node", "Express", "Redex", "Styled Component"],
+			link: "https://twopangre.onrender.com/"
 		},
 		{
 			title: "RealState",
@@ -77,7 +77,7 @@ export function ProjectsSection() {
 									<img src={item.src} alt={item.title} />
 								</div>
 								<h3 className="text-green-500 text-center font-bold text-2xl mt-10">
-									E-{item.title}
+									{item.title}
 								</h3>
 								<div className="flex justify-center my-10">
 									<div className="flex gap-4 ">

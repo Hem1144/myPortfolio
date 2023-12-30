@@ -38,29 +38,29 @@ export function ProjectsSection() {
 	const projects = [
 		{
 			title: "E-Commerce",
-			src: "../s.png",
-			toolbar: ["React", "Node", "Express", "Redex", "Styled Component"],
+			src: "../2pangre.png",
+			toolbar: ["React", "Node", "Express", "MongoDB", "Redux", "Styled Component", "Render"],
 			link: "https://twopangre.onrender.com/"
 		},
 		{
-			title: "RealState",
-			src: "../lal1.png",
-			toolbar: ["React", "Next JS", "Redex JS", "CSS", "Bootstrap"],
-			link: "https://lalpurja.vercel.app/"
-		},
-
-		{
-			title: "FoodMenu",
-			src: "../fo.png",
-			toolbar: ["React", "Next JS", "Redex JS", "Tailwind"],
-			link: "https://food-hithub-io.vercel.app/"
-		},
-		{
-			title: "IdeaForNepal",
-			src: "../ide.png",
-			toolbar: ["React", "Next JS", "Redex JS", "Tailwind"],
-			link: "https://ideafornepal.com/"
+			title: "TheCocktailDB",
+			src: "../cocktail.png",
+			toolbar: ["React", "Redex JS", "CSS", "Tailwind", "Netlify"],
+			link: "https://dulal-cocktail.netlify.app/"
 		}
+
+		// {
+		// 	title: "FoodMenu",
+		// 	src: "../fo.png",
+		// 	toolbar: ["React", "Next JS", "Redex JS", "Tailwind"],
+		// 	link: "https://food-hithub-io.vercel.app/"
+		// },
+		// {
+		// 	title: "IdeaForNepal",
+		// 	src: "../ide.png",
+		// 	toolbar: ["React", "Next JS", "Redex JS", "Tailwind"],
+		// 	link: "https://ideafornepal.com/"
+		// }
 	];
 
 	return (
@@ -80,7 +80,7 @@ export function ProjectsSection() {
 									{item.title}
 								</h3>
 								<div className="flex justify-center my-10">
-									<div className="flex gap-4 ">
+									<div className="flex gap-4 flex-wrap ">
 										{item.toolbar.map((data, i) => (
 											<span key={i} className="bg-[#484A59] p-2 rounded-lg">
 												{data}

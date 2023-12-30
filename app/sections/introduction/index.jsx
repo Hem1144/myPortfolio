@@ -76,8 +76,8 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hi, I&apos;m <mark>Hemlal Dulal</mark> a <mark>passionate </mark>Full Stack Web
-								developer.
+								Hi, I&apos;m <mark>Hemlal Dulal</mark> a <mark>Passionate </mark>Full Stack Web
+								Developer
 							</p>
 						</h1>
 

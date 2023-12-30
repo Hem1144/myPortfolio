@@ -13,7 +13,7 @@ export function HeadingDivider({ title = "" }) {
 					animate={animate}
 					exit={exit}
 					transition={transition}
-					className="heading-divider  shadow-2xl"
+					className="heading-divider  shadow-2xl text-[#44B24A]"
 				>
 					{!title.includes("Project") ? (
 						<>
@@ -21,7 +21,7 @@ export function HeadingDivider({ title = "" }) {
 						</>
 					) : (
 						<>
-							My <span className=" text-[#44B24A]">Project</span>
+							My <span className=" text-[#44B24A]">Projects</span>
 						</>
 					)}
 				</m.h2>

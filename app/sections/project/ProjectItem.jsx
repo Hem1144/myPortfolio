@@ -9,8 +9,6 @@ import { FiExternalLink } from "react-icons/fi";
 import "react-image-gallery/styles/css/image-gallery.css";
 
 export function ProjectItem({ project, index }) {
-	alert("hello")
-	console.log("project")
 	const { description, images, liveUrl, repoUrl, stack, title } = project;
 	const cardRef = useRef(null);
 	const isInView = useInView(cardRef, { once: true });
@@ -32,21 +30,9 @@ export function ProjectItem({ project, index }) {
 				transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${index === 0 ? 0 : 25 * index}ms`
 			}}
 		>
-		
 			<figure>
 				<div className="aspect-[12/9.2] w-full h-full">
-					<Suspense fallback={<Loader />}>
-						{/* hello
-						<img src="../p.png"/> */}
-						{/* <ImageGallery
-							items={galleryImages}
-							showPlayButton={false}
-							showThumbnails={false}
-							showIndex
-							lazyload
-							additionalClass="gallery-item"
-						/> */}
-					</Suspense>
+					<Suspense fallback={<Loader />}></Suspense>
 				</div>
 			</figure>
 

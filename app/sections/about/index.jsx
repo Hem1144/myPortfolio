@@ -77,7 +77,7 @@ export function AboutSection() {
 						<h2 className="  font-bold text-2xl">My Education</h2>
 						<div className=" mt-5 border-l-[2px] h-[5rem] px-5   border-[#44B24A]">
 							<h3 className=" text-xl  font-semibold">
-								Bachlor of Science in Computer Science and Information Technology(Bsc.CSIT)
+								Bachelor of Science in Computer Science and Information Technology(Bsc.CSIT)
 							</h3>
 							<span className=" text-sm  text-green-200"> Patan Multipal Campus / 2018 - 2022</span>
 						</div>

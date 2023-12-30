@@ -59,17 +59,16 @@ export function AboutSection() {
 					<div>
 						<h2 className="  font-bold text-2xl">My Experience</h2>
 						<div className=" mt-5 border-l-[2px] px-5   border-[#44B24A]">
-							<h3 className=" text-xl  font-semibold">MERN full Stack Development / Training</h3>
-							<span className=" text-sm  text-green-200">
-								{" "}
-								Deerwalk Training Center / February 2023 - May 2023
-							</span>
-						</div>
-						<div className=" mt-5 border-l-[2px] px-5   border-[#44B24A]">
 							<h3 className=" text-xl  font-semibold">
 								Full Stack Development [Bootcamp] / Trainee
 							</h3>
 							<span className=" text-sm  text-green-200"> TEJ Center / June 2023 - Present</span>
+						</div>
+						<div className=" mt-5 border-l-[2px] px-5   border-[#44B24A]">
+							<h3 className=" text-xl  font-semibold">MERN full Stack Development / Training</h3>
+							<span className=" text-sm  text-green-200">
+								Deerwalk Training Center / February 2023 - May 2023
+							</span>
 						</div>
 					</div>
 				</div>

@@ -60,14 +60,16 @@ export function AboutSection() {
 						<h2 className="  font-bold text-2xl">My Experience</h2>
 						<div className=" mt-5 border-l-[2px] px-5   border-[#44B24A]">
 							<h3 className=" text-xl  font-semibold">Associate Full Stack Software Engineer</h3>
-							<span className=" text-sm  text-green-200"> GrowByData / Feb 2024 - Present</span>
+							<span className=" text-sm  text-green-200">
+								GrowByData / Feb 2024 - Present [React + Python + MySQL]
+							</span>
 						</div>
 						<div className=" mt-5 border-l-[2px] px-5   border-[#44B24A]">
-							<h3 className=" text-xl  font-semibold">Full Stack Development [Trainee]</h3>
+							<h3 className=" text-xl  font-semibold">Full Stack Development / [Trainee]</h3>
 							<span className=" text-sm  text-green-200"> TEJ Center / June 2023 - Feb 2024</span>
 						</div>
 						<div className=" mt-5 border-l-[2px] px-5   border-[#44B24A]">
-							<h3 className=" text-xl  font-semibold">MERN full Stack Development / Training</h3>
+							<h3 className=" text-xl  font-semibold">MERN Full Stack Development / Training</h3>
 							<span className=" text-sm  text-green-200">
 								Deerwalk Training Center / February 2023 - May 2023
 							</span>

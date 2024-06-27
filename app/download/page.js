@@ -15,14 +15,14 @@ const DownloadPage = () => {
 	const router = useRouter();
 
 	useEffect(() => {
-		fetch("HemlalDulalResume.pdf").then((response) => {
+		fetch("HemlalDulal_Resume.pdf").then((response) => {
 			response.blob().then((blob) => {
 				// Creating new object of PDF file
 				const fileURL = window.URL.createObjectURL(blob);
 				// Setting various property values
 				let alink = document.createElement("a");
 				alink.href = fileURL;
-				alink.download = "HemlalDulalResume.pdf";
+				alink.download = "HemlalDulal_Resume.pdf";
 				alink.click();
 			});
 		});
